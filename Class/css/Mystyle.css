@@ -1,0 +1,492 @@
+.box{
+	 background-color:white;
+    height:auto;
+	width: 600px;
+	display: block;
+	margin-top:70px;	
+	appearance: none;
+	box-shadow: none;
+	padding: 10px 20px 10px 20px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+.box1{
+	 background-color:white;
+    height:auto;
+	width: 400px;
+	display: block;
+	margin-top:70px;	
+	appearance: none;
+	box-shadow: none;
+	padding: 10px 20px 10px 20px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+
+.boxReservation{
+	background-color:white;
+    height:auto;
+	width: 600px;
+	display: block;
+	margin-top:70px;	
+	appearance: none;
+	box-shadow: none;
+	padding: 10px 20px 10px 20px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+.boxReservationPromo{
+	background-color:white;
+    height:auto;
+	width: 600px;
+	display: block;
+	margin-top:70px;	
+	appearance: none;
+	box-shadow: none;
+	padding: 10px 20px 10px 20px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+.signUpForm, .ReserveForm, .LoginForm, .reservepromoForm, .PromoForm, .LoginPromoForm, .signUpFormPromo  {
+	display: none;
+	position: absolute;
+	opacity: 0.9;
+	width: 100%;
+	height: 770px;
+	background-color: #000;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	color: white;
+	text-align: center;
+}
+
+.close {
+	position: absolute;
+	right: 0;
+	margin-top: 30px;
+	margin-right: 300px;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+.close:hover {
+	color: gray;
+}
+
+.close2 {
+	position: absolute;
+	right: 0;
+	margin-top: 30px;
+	margin-right: 300px;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+
+
+.close2:hover {
+	color: gray;
+}
+.close3 {
+	position: absolute;
+	right: 0;
+	margin-top: 30px;
+	margin-right: 300px;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+.close3:hover {
+	color: gray;
+}
+
+.close4 {
+	position: absolute;
+	right: 0;
+	margin-top: 30px;
+	margin-right: 300px;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+
+
+.close4:hover {
+	color: gray;
+}
+.close5 {
+	position: absolute;
+	right: 0;
+	margin-top: 30px;
+	margin-right: 300px;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+.close5:hover {
+	color: gray;
+}
+
+.close6 {
+	position: absolute;
+	right: 0;
+	margin-top: 30px;
+	margin-right: 300px;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+
+
+.close6:hover {
+	color: gray;
+}
+.signUpForm form, .ReserveForm form, .LoginForm form, .reservepromoForm form, .PromoForm form, .signUpFormPromo form  {
+	height:700px;
+	margin: auto;
+	width: 800px;
+	line-height: 700px;
+	vertical-align: middle;
+}
+
+.signUpForm form , .ReserveForm form , .LoginForm form , .reservepromoForm form , .PromoForm form , .LoginPromoForm form , .signUpFormPromo form  {
+	display: inline-block;
+	line-height: 10em;
+}
+
+.signUpForm form  {
+	display: inline-block;
+	line-height: 5em;
+}
+.signUpFormPromo form  {
+	display: inline-block;
+	line-height: 5em;
+}
+
+ .ReserveForm form  {
+	display: inline-block;
+	line-height: 5em;
+ }
+  .LoginForm form {
+	display: inline-block;
+	line-height: 5em;
+ }
+   .PromoForm form  {
+	display: inline-block;
+	line-height: 5em;
+ }
+
+   .reservepromoForm  {
+	display: inline-block;
+	line-height: 5em;
+ }
+  .LoginPromoForm  {
+	display: inline-block;
+	line-height: 5em;
+ }
+
+
+.sUp {
+	margin-top:-30px;
+	font-size: 36pt;
+	color:  #1947A3;
+	font-weight: bold;
+}
+
+
+.inside 
+{
+  color: #FF0000;
+  z-index: 9999;
+}
+.inside2 
+{
+	margin-top:-40px;
+
+
+}
+
+.inside .left{
+
+border-right: 1px solid #EEE;
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: #EEE;
+border-right: 1px solid #EEE;
+padding-top: 0px;
+padding-right: 40px;
+padding-bottom: 30px;
+padding-left: 30px;
+}
+.inside .right{
+
+border-right: 1px solid #EEE;
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: #EEE;
+border-right: 1px solid #EEE;
+padding-top: 0px;
+padding-right: 40px;
+padding-bottom: 30px;
+padding-left: 30px;
+}
+
+#inside2 {
+position: relative;
+box-shadow: -1px 0 0 0 white, -2px;
+}
+.right {
+float: right;
+margin-top:-110px;
+}
+
+
+input[type="text"], input[type="password"]
+{
+	margin-top:-5px; 
+	font-family: "Trebuchet MS", sans-serif;
+	width: 300px;		
+	font-size: 15pt;
+	appearance: none;
+	box-shadow: none;
+	padding: 10px 20px 10px 20px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+	border-radius: 5px;
+	background-color:#DDD;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+	outline: none;
+	border: 1px solid #e67e22;
+	box-shadow: 0 0 5px 1px #e67e22;
+		background-color:white;
+}
+
+.selectoption{
+	margin-top:-5px; 
+	font-family: "Trebuchet MS", sans-serif;
+	width: 300px;		
+	font-size: 15pt;
+	appearance: none;
+	box-shadow: none;
+	padding: 10px 20px 10px 20px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+	border-radius: 5px;
+	background-color:#DDD;
+
+}
+.selectoption:focus {
+		outline: none;
+	border: 1px solid #e67e22;
+	box-shadow: 0 0 5px 1px #e67e22;
+		background-color:white;
+	}
+
+.checkboxF {
+	width: 80px;
+	height: 30px;
+	margin: 40px 100px;
+	position: relative;
+	
+}
+
+.checkboxF  {
+	width: 100%;
+	height: 100%;
+	background: #d3d3d3;
+	border-radius: 50px;
+	position: relative;
+	opacity: 0.1;
+	top: -95px;
+}
+
+.checkboxF label {
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: -48px;
+	left: 8px;
+	z-index: 1;
+	background: #FFF;
+}
+
+.checkboxF input[type="checkbox"]:checked ~ div {
+	background: #1947A3;
+	opacity: 1;
+}
+
+.checkboxF input[type="checkbox"]:checked ~ label {
+	left: 50px;
+}
+
+
+
+.button {
+	 /*-webkit-border-radius: 14;
+	  -moz-border-radius: 14;*/
+	  margin-top:-60px;
+	  border: 0;
+	  border-radius: 14px;
+	  font-family: "Trebuchet MS", sans-serif;
+	  color: #ffffff;
+	  font-size: 22px;
+	  background: #1947A3;
+	  padding: 10px 50px 10px 50px;
+	  transition: 0.5s;
+	  text-decoration: none
+}
+
+.button:hover {	
+  background: #003366;
+  text-decoration: none;
+}
+
+.remme {
+	position: relative;
+	color: black;
+	top:-30px;
+}
+.button1 {
+	 /*-webkit-border-radius: 14;
+	  -moz-border-radius: 14;*/
+	  margin-top:-40px;
+	  border: 0;
+	  border-radius: 14px;
+	  font-family: "Trebuchet MS", sans-serif;
+	  color: #ffffff;
+	  font-size: 22px;
+	  background: #1947A3;
+	  padding: 10px 50px 10px 50px;
+	  transition: 0.5s;
+	  text-decoration: none;
+	  height:30px;
+	  margin-left:20px; 
+	  width: 50px;
+}
+
+.button1:hover {	
+  background: #003366;
+  text-decoration: none;
+}
+
+
+
+#image_preview{
+position: absolute;
+top:170px;
+margin-left:50px;
+font-size: 30px;
+left: 300px;
+width: 200px;
+height: 120px;
+text-align: center;
+line-height: 180px;
+font-weight: bold;
+color: #C0C0C0;
+background-color: gray;
+
+}
+#image_previewpromo{
+position: absolute;
+top:170px;
+margin-left:50px;
+font-size: 30px;
+left: 300px;
+width: 200px;
+height: 120px;
+text-align: center;
+line-height: 180px;
+font-weight: bold;
+color: #C0C0C0;
+background-color: gray;
+}
+
+.span{
+	position: absolute;
+	top:300;
+	left: 420px;
+	line-height: 100px;
+}
+.code
+{
+	margin-top:10px; 
+	margin-left:-100px; 
+	font-family: "Trebuchet MS", sans-serif;
+	width: 240px;		
+	font-size: 15pt;
+	appearance: none;
+	box-shadow: none;
+	padding: 10px 20px 10px 20px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+	border-radius: 5px;
+	background-color:#DDD;
+
+}	
+
+.code:focus {
+	outline: none;
+	border: 1px solid #e67e22;
+	box-shadow: 0 0 5px 1px #e67e22;
+		background-color:white;
+}
+.imgcode
+{
+	margin-left:80px;
+	position: absolute;
+	margin-top:-60px; 
+	height: 60px;
+	width: 100px;
+}
+.button2 {
+	 /*-webkit-border-radius: 14;
+	  -moz-border-radius: 14;*/
+	  border: 0;
+	  border-radius: 14px;
+	  font-family: "Trebuchet MS", sans-serif;
+	  color: #ffffff;
+	  font-size: 22px;
+	  background: #1947A3;
+	  padding: 10px 50px 10px 50px;
+	  transition: 0.5s;
+	  text-decoration: none;
+	  margin-top: 	30px;
+
+}
+
+.button2:hover {	
+  background: #003366;
+  text-decoration: none;
+}
