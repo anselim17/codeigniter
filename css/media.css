@@ -1,0 +1,226 @@
+.container{max-width:1000px;height:auto;margin:0 auto; width: 100%;}
+.container-header{max-width:1055px;height:auto;margin:0 auto; width: 100%;}
+
+/* Large Tablet Devices ----------- */
+@media only screen
+and (max-width : 1000px) {
+	html, body{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none; /* Webkit */
+		-moz-user-select: none;    /* Firefox */
+		-ms-user-select: none;     /* IE 10  */
+	}
+	body{background:none;}
+	/*
+	* Header
+	*/
+	header {height: auto;overflow: visible;}
+
+	.logo-wrapper,.cb-logo{text-align: center; float: none; margin: auto; display: block; }
+	.logo-wrapper{position:static;padding:0;}
+	.contactinfo{float: none; display: block; margin: 0px auto; padding: 0; width: 146px}
+	.contactinfo span{display: inline;}
+	.socials{float:none;display:block;text-align:center;margin:10px auto 0;padding:0;}
+	.socials h2{text-align:center;}
+
+
+	/*
+ 	* Primary Navigation Config
+	*/
+
+	.page-nav{float: none; clear: both; height:auto; padding:10px 0; display: block; }
+	.page-nav ul { height: auto}
+	.page-nav ul li a { padding: 10px; }
+	.page-nav ul li a:hover { background: #ffd200; color: #fff  }
+	.page-nav ul{margin: 0; padding: 0; text-align: center; display: block; }
+	.page-nav li{margin: 0px; width: 30%; display: inline-block; vertical-align: top; text-align: left; border: 1px solid #fff; margin-bottom: 5px; border-radius: 3px; padding: 0px; }
+	.page-nav li:nth-child(3){margin-right: 0px; }
+	.page-nav ul li a{text-align:center; margin: 0px; line-height: 30px; }
+	.page-nav ul li a:before { content: "" }
+	.page-nav li span{display: block; } .page-nav ul li:after{content:"";}
+
+	/* Nth Drop Down */
+
+	.page-nav ul ul, .page-nav ul li:hover ul{display: none; left: 0; top: 100%; }
+	.page-nav ul ul li a{}
+	/*.dropdown ul ul {width:100%;display:block;}*/
+	.dropdown ul ul li{width:100%;display:block;}
+	.dropdown ul ul li a{display:block;width:100%;margin:0 auto!important;}
+	.dropdown ul ul { width: 100%; }
+
+
+
+	/*
+	*BANNER
+	*/
+	.flash{display:none;width:980px;height:466px;}
+	.flash2{display:block;width:100%;height:auto;}
+	.slog{display:none;}
+	.slogan{display:block;}
+
+		/*Mid Area*/
+
+	#mid { margin-top: 0px; background: none; position: relative; height: auto; padding-top: 10px;}
+	.mid-box {  margin: 5px !important;	}
+	.mid-box h3 { color: #ffffff !important }
+	.mid-box span { color: #ffd200 !important; }
+	.mid-box p { color: #ffffff !important}
+	.btns ul a { text-align: left; }
+	.services { text-align: left; }
+
+
+
+
+
+
+	/* Main Content Area */
+	aside { margin: 0px auto !important; float: none !important }
+	.page-content { width:100%; float: none }
+	.page-content { min-height: auto;} aside{text-align:center;}
+	.mission{display:inline-block;vertical-align:top;margin:10px auto 10px;text-align:left;}
+	.sidebar{display:inline-block;vertical-align:top;margin:0 auto;text-align:left;}
+	.page-content{text-align: left; }
+
+
+	/*
+	*BOTTOM
+	*/
+	.bottom{paddin:15px; height: auto;}
+
+	/*
+	*FOOTER
+	*/
+
+	.footer-top{height:auto;background: transparent linear-gradient(to bottom, #7d1a26, #771722);padding:20px 0;margin-top:0;}
+	.footer-top > .container{text-align:center;}
+	.contact-info{float:none;display:inline-block;vertical-align:top;margin:15px;text-align:left;}
+	.testi{float:none;display:inline-block;vertical-align:top;margin:15px;text-align:left;}
+	.footer-logo{float:none;display:inline-block;vertical-align:top;margin:15px;text-align:left;}
+
+	.footer-bottom{height:auto;background: transparent linear-gradient(to bottom, #8c222d, #8c222d);padding:10px 0;}
+	.nav-footer ul{ display:block; }
+	.nav-footer ul li{ display: inline-block;}
+	.nav-footer ul li a{margin:0 auto!important;}
+
+
+	/*
+	* Copyright, Icons Config
+	*/
+
+	#copyright, .icons{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#copyright { position: static; width:100%; text-align: center; border: none;}
+	.contact-info { margin: 0px !important; margin-bottom: 15px !important;}
+	.nav-footer { margin-right: 0px !important; width: 100%;}
+	.footer-logo { position: static; margin-top: 0px !important}
+	footer { text-align: center; height: auto; }
+	.nav-footer ul li a { display: block; width: auto; height: 30px; line-height: 30px; }
+	.nav-footer ul li {  margin-bottom: 5px; }
+}
+
+
+/* Table Devices */
+@media only screen
+and (max-width : 734px) {
+
+
+	/*
+ 	* Primary Navigation Config
+	*/
+	#nav-area{min-height:50px;background:#811c28;}
+	.page-nav { margin-top: 0px; }
+	.page-nav li,
+	.page-nav li span{ display: block; }
+
+
+	#banner { text-align: center }
+
+
+	.page-nav ul{margin: 0; padding: 0 5px; }
+
+	.page-nav li{display: inline-block; }
+
+	.page-nav li a{padding: 10px 0; }
+
+	/* Nth Drop Down */
+	.page-nav ul ul{
+		position: relative;
+	}
+
+	.page-nav ul ul li a{width: auto; }
+	.col3{column-count:2;-webkit-column-count:2;-moz-column-count:2;}
+	.content-img, .floatright-img{float:none;display:block;margin:0 auto !important;}
+
+
+}
+/* li sidenav */
+@media screen and (max-width: 400px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+    }
+     ul.sidenav li  {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 306px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+/*box */
+@media screen and (max-width: 1005px) {
+     .bottom-boxes  {
+        overflow: visible;
+        height: auto;
+        background-color: blue;
+
+    }
+     .bottom-boxes h4 {
+        text-align: left;
+    }
+}
+
+
+
+@media only screen
+and (max-width : 600px) {
+	.nav-toggle-button { display: block; }
+	.page-nav ul li { width: 100%; }
+	.page-nav { display: none; }
+	.thumb-right { display: none; }
+}
+
+@media only screen
+and (max-width : 561px) {
+	.nav-footer li { border: 1px solid #fff; width: 200px; }
+	.nav-footer li:after { content: "" !important }
+}
+
+/* Smartphones */
+@media only screen
+and (max-width : 500px) {
+	.col2{column-count:1;-webkit-column-count:1;-moz-column-count:1;}
+	.col3{column-count:1;-webkit-column-count:1;-moz-column-count:1;}
+	/*
+	* Footer Area Config
+	*/
+
+		/*.nav-footer{}
+		.nav-footer ul{
+			padding: 0;
+		}
+
+		.nav-footer ul li{
+			display: block;
+		}
+		.nav-footer ul li:after{content:"";}
+		.nav-footer ul li a{display:block;padding:5px 0;text-align:center;border:1px dashed #fff;}*/
+
+}
